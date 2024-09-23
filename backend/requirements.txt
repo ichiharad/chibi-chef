@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+gunicorn
+Werkzeug
+google-cloud-firestore
+google-cloud-aiplatform
