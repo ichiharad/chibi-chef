@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="material-navbar p-2">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img src="/logo.png" alt="Chibi Chef" className="h-12 w-auto" />
+          <img src="/logo.png" alt="Mini Chef" className="h-12 w-auto" />
         </Link>
         <div className="flex space-x-4">
           {navItems.filter(item => !item.hidden && item.title !== "Home").map((item) => (
